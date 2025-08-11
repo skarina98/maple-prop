@@ -193,22 +193,13 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[40vh]">
             <div className="text-left">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight tracking-tight">
-                Transforming Dilapidated Properties
-                <br />
-                <span className="text-orange-400">Into High-Quality Homes</span>
+                A Family-run property building company carrying out projects all
+                over England.
               </h1>
               <p className="text-lg md:text-xl mb-6 max-w-2xl text-gray-200 font-light">
-                Maple Properties is a family-run property investment company
-                buying rundown properties across the UK for refurbishment and
-                long-term letting.
+                Over 30 years experience buying and renovating
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a
-                  href="#contact"
-                  className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg text-base"
-                >
-                  Got a Property to Sell?
-                </a>
                 <a
                   href="#projects"
                   className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg text-base"
@@ -257,9 +248,12 @@ export default function Home() {
                 Everything in one place
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Buying a property should feel exciting, not overwhelming. Maple
-                Properties is built to give you more control, more clarity, and
-                more confidence at every step.
+                Maple Properties is led by father and daughter duo Andre and
+                Karina Savoie. With over 30 years of hands-on building
+                experience and a passion for thoughtful design, we specialise in
+                giving neglected properties a new lease of life. From
+                fire-damaged terraces to unloved apartments, we turn problems
+                into beautiful homes.
               </p>
             </div>
 
@@ -330,7 +324,7 @@ export default function Home() {
                   Andre Savoie
                 </h3>
                 <div className="inline-block bg-green-100 text-green-800 text-sm font-semibold px-3 py-1 rounded-md mb-4">
-                  CONSTRUCTION EXPERT
+                  FOUNDER AND DIRECTOR
                 </div>
                 <div className="border-t border-dashed border-gray-300 mb-4"></div>
                 <p className="text-gray-700 leading-relaxed text-lg">
@@ -345,13 +339,12 @@ export default function Home() {
                   Karina Savoie
                 </h3>
                 <div className="inline-block bg-green-100 text-green-800 text-sm font-semibold px-3 py-1 rounded-md mb-4">
-                  CREATIVE DIRECTOR
+                  PROJECT MANAGER
                 </div>
                 <div className="border-t border-dashed border-gray-300 mb-4"></div>
                 <p className="text-gray-700 leading-relaxed text-lg">
                   Karina is a creative force with interests spanning project
-                  management, architecture and interior design. Together, we
-                  manage every project from purchase to completion.
+                  management, architecture and interior design.
                 </p>
               </div>
             </div>
@@ -360,10 +353,8 @@ export default function Home() {
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-left">
                   <p className="text-2xl font-serif text-gray-900 leading-relaxed mb-6">
-                    A family-run property company transforming dilapidated
-                    properties into high-quality homes, delivering exceptional
-                    results for families, professionals and key workers across
-                    the UK.
+                    Together, Andre and Karina manage every project from
+                    purchase to refurbishment to onward sale or letting.
                   </p>
                   <div className="border-t border-gray-300 w-16 mb-2"></div>
                 </div>
@@ -394,7 +385,7 @@ export default function Home() {
               className="text-3xl md:text-4xl font-bold mb-4"
               style={{ color: "#FF9100" }}
             >
-              We Buy Problem Properties. Fast.
+              We Buy Houses with Great Potential
             </h2>
           </div>
 
@@ -449,14 +440,6 @@ export default function Home() {
                 <li className="flex items-start">
                   <span className="w-2 h-2 bg-gradient-to-r from-amber-400 to-orange-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
                   <span>Damp and roof problems</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="w-2 h-2 bg-gradient-to-r from-amber-400 to-orange-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span>Title defects</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="w-2 h-2 bg-gradient-to-r from-orange-500 to-red-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span>Short leases</span>
                 </li>
               </ul>
             </div>
@@ -816,7 +799,7 @@ export default function Home() {
                     <span className="w-5 h-5 bg-gradient-to-r from-orange-500 to-red-500 rounded-full flex items-center justify-center text-white text-xs font-bold mr-3 flex-shrink-0">
                       ✓
                     </span>
-                    <span>Portfolio of 100+ successful projects</span>
+                    <span>Portfolio of 50+ successful projects</span>
                   </li>
                 </ul>
               </div>
